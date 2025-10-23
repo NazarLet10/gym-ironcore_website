@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IronCore - Преміум спортзал</title>
+    
+    <!-- НОВА ФАВІКОНКА -->
+<link rel="icon" type="image/png" href="/images/gym.png?v=2">
+<link rel="shortcut icon" href="/images/gym.png?v=2">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Шапка сайту -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h1>IronCore</h1>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html" class="active" data-text="Головна">Головна</a></li>
+                        <li><a href="index2.html" data-text="Послуги">Послуги</a></li>
+                        <li><a href="index3.html" data-text="Про нас">Про нас</a></li>
+                        <li><a href="index4.html" data-text="Контакти">Контакти</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Головний контент -->
+    <main>
+     <!-- Герой секція -->
+<section class="hero">
+    <div class="hero-slider">
+        <!-- Слайд 1 -->
+        <div class="slide active">
+            <div class="slide-image" style="background-image: url('images/hero1.jpg');"></div>
+            <div class="slide-content">
+                <h2 class="hero-title">Твоя сила починається тут</h2>
+                <p class="hero-subtitle">Преміум спортзал з найсучаснішим обладнанням та професійними тренерами</p>
+                <div class="hero-buttons">
+                    <a href="index2.html" class="btn btn-primary">Наші послуги</a>
+                    <a href="index2.html#cta-content" class="btn btn-secondary">Безкоштовний пробний день</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Слайд 2 -->
+        <div class="slide">
+            <div class="slide-image" style="background-image: url('images/hero2.jpg');"></div>
+            <div class="slide-content">
+                <h2 class="hero-title">Досягай нових цілей</h2>
+                <p class="hero-subtitle">Індивідуальний підхід та сучасні методи тренувань</p>
+                <div class="hero-buttons">
+                    <a href="index3.html" class="btn btn-primary">Про нас</a>
+                    <a href="index2.html#type-features" class="btn btn-secondary">Записатись на тренування</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Слайд 3 -->
+        <div class="slide">
+            <div class="slide-image" style="background-image: url('images/hero3.jpg');"></div>
+            <div class="slide-content">
+                <h2 class="hero-title">Команда професіоналів</h2>
+                <p class="hero-subtitle">Наші тренери допоможуть досягти ідеальної форми</p>
+                <div class="hero-buttons">
+                    <a href="index3.html" class="btn btn-primary">Наші тренери</a>
+                    <a href="index4.html#contact-form" class="btn btn-secondary">Отримати консультацію</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Навігація слайдера - тільки точки -->
+    <div class="slider-dots">
+        <span class="slider-dot active" data-slide="0"></span>
+        <span class="slider-dot" data-slide="1"></span>
+        <span class="slider-dot" data-slide="2"></span>
+    </div>
+</section>
+    <!-- Статистика -->
+    <div class="hero-stats">
+        <!-- ... статистика залишається без змін ... -->
+    </div>
+</section>
+            
+            <!-- Статистика -->
+            <div class="hero-stats">
+                <div class="container">
+                    <div class="stats-grid">
+                        <div class="stat">
+                            <div class="stat-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="stat-number-wrapper">
+                                <span class="stat-number" data-count="500">500</span>
+                                <span class="stat-plus">+</span>
+                            </div>
+                            <span class="stat-label">задоволених клієнтів</span>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-icon">
+                                <i class="fas fa-dumbbell"></i>
+                            </div>
+                            <div class="stat-number-wrapper">
+                                <span class="stat-number" data-count="50">50</span>
+                                <span class="stat-plus">+</span>
+                            </div>
+                            <span class="stat-label">одиниць обладнання</span>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-icon">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <div class="stat-number-wrapper">
+                                <span class="stat-number" data-count="15">15</span>
+                                <span class="stat-plus">+</span>
+                            </div>
+                            <span class="stat-label">професійних тренерів</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секція особливостей -->
+        <section class="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Чому обирають IronCore?</h2>
+                    <p>Ми пропонуємо унікальний досвід тренувань</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-dumbbell"></i>
+                        </div>
+                        <h3>Сучасне обладнання</h3>
+                        <p>Професійне спортивне обладнання від провідних світових брендів</p>
+                        <div class="feature-overlay">
+                            <p>TechnoGym, Life Fitness, Hammer Strength</p>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <h3>Досвідчені тренери</h3>
+                        <p>Кваліфіковані спеціалісти з індивідуальним підходом до кожного клієнта</p>
+                        <div class="feature-overlay">
+                            <p>Сертифіковані тренери з досвідом від 5 років</p>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Гнучкий графік</h3>
+                        <p>Працюємо з ранку до пізнього вечора для вашого максимального комфорту</p>
+                        <div class="feature-overlay">
+                            <p>Без вихідних та свят</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секція галереї -->
+        <section class="gallery">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Наш простір</h2>
+                    <p>Ознайомтесь з атмосферою нашого залу</p>
+                </div>
+                <div class="gallery-slider">
+                    <div class="gallery-slide active">
+                        <div class="gallery-image" style="background-image: url('images/gym1.jpg');"></div>
+                        <div class="gallery-caption">Головний зал</div>
+                    </div>
+                    <div class="gallery-slide">
+                        <div class="gallery-image" style="background-image: url('images/gym2.jpg');"></div>
+                        <div class="gallery-caption">Кардіо зона</div>
+                    </div>
+                    <div class="gallery-slide">
+                        <div class="gallery-image" style="background-image: url('images/gym3.jpg');"></div>
+                        <div class="gallery-caption">Силова зона</div>
+                    </div>
+                    <div class="gallery-slide">
+                        <div class="gallery-image" style="background-image: url('images/gym4.jpg');"></div>
+                        <div class="gallery-caption">Функціональний тренінг</div>
+                    </div>
+                    <div class="gallery-slide">
+                        <div class="gallery-image" style="background-image: url('images/gym5.jpg');"></div>
+                        <div class="gallery-caption">Роздягальні</div>
+                    </div>
+                </div>
+                <div class="gallery-controls">
+                    <button class="gallery-prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="gallery-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="gallery-dots"></div>
+            </div>
+        </section>
+
+        <!-- Секція відгуків -->
+        <section class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Відгуки наших клієнтів</h2>
+                    <p>Що кажуть про нас</p>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="client-avatar" style="background-image: url('images/client1.jpg');"></div>
+                            <div class="client-info">
+                                <h4>Оля Плазова</h4>
+                                <span>Відвідує 6 місяців</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <p>"Зручний спортзал з професійними тренерами і новим обладнанням. Привітний персонал, комфортні умови тренування, кваліфіковані тренери. Рекомендую!"</p>
+                        </div>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="client-avatar" style="background-image: url('images/client2.jpg');"></div>
+                            <div class="client-info">
+                                <h4>Олексій Петренко</h4>
+                                <span>Відвідує 3 місяці</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <p>"Тренування пройшло добре. Багато тренажерів. Комфортна температура. Персонал дуже привітний. Рекомендую всім, хто шукає якісний спортзал."</p>
+                        </div>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="client-avatar" style="background-image: url('images/client3.jpg');"></div>
+                            <div class="client-info">
+                                <h4>Марія Коваленко</h4>
+                                <span>Відвідує 1 рік</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <p>"Найкращий зал у місті! Професійне обладнання, завжди чисто, приємна атмосфера. Тренери допомогли мені досягти відмінних результатів."</p>
+                        </div>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="client-avatar" style="background-image: url('images/client4.jpg');"></div>
+                            <div class="client-info">
+                                <h4>Андрій Шевченко</h4>
+                                <span>Відвідує 2 роки</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <p>"Дуже сподобався підхід тренерів. Індивідуальна програма тренувань, сучасне обладнання. За 2 роки вже бачу чудові результати!"</p>
+                        </div>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       <!-- Секція вибору тренера -->
+<section class="choose-trainer">
+    <div class="container">
+        <div class="section-header">
+            <h2>Обери свого персонального тренера</h2>
+            <p>Саме персональний тренер є запорукою результату!</p>
+        </div>
+        
+        <!-- Слайдер тренерів -->
+        <div class="trainers-slider">
+            <div class="trainers-track" id="trainers-track">
+                <!-- Тренер 1 -->
+                <div class="trainer-card-slide">
+                    <div class="trainer-image" style="background-image: url('images/trainer1.jpg');"></div>
+                    <div class="trainer-info">
+                        <h3>Степан Дем'янчук</h3>
+                        <p class="trainer-title">Преміум персональний тренер</p>
+                        <p class="trainer-certification">Сертифікований тренер тренажерного залу. Викладач курсу "Школа тренера".</p>
+                        <div class="trainer-details" style="display: none;">
+                            <p>Чемпіон України зі штовхання ядра. Майстер спорту України з легкої атлетики. Магістр, викладач фізичної культури та тренер.</p>
+                            <p><strong>Спеціалізація:</strong> набір м'язової маси, схуднення, розвиток фізичних якостей</p>
+                        </div>
+                        <div class="trainer-actions">
+                            <button class="btn btn-outline toggle-details">Дізнатись більше</button>
+                            <button class="btn btn-primary open-booking" data-trainer="Степан Дем'янчук">Записатися на тренування</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Тренер 2 -->
+                <div class="trainer-card-slide">
+                    <div class="trainer-image" style="background-image: url('images/trainer2.jpg');"></div>
+                    <div class="trainer-info">
+                        <h3>Прина Лещишин</h3>
+                        <p class="trainer-title">Преміум персональна тренерка</p>
+                        <p class="trainer-certification">Сертифікована тренерка тренажерного залу та нутриціологічна. Викладачка курсу "Школа тренера".</p>
+                        <div class="trainer-details" style="display: none;">
+                            <p>Фахівець з фітнес-нутриціології та корекції фігури. Досвід роботи 8 років.</p>
+                            <p><strong>Спеціалізація:</strong> жіночий фітнес, корекція ваги, харчування, відновлення після пологів</p>
+                        </div>
+                        <div class="trainer-actions">
+                            <button class="btn btn-outline toggle-details">Дізнатись більше</button>
+                            <button class="btn btn-primary open-booking" data-trainer="Прина Лещишин">Записатися на тренування</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Тренер 3 -->
+                <div class="trainer-card-slide">
+                    <div class="trainer-image" style="background-image: url('images/trainer3.jpg');"></div>
+                    <div class="trainer-info">
+                        <h3>Сергій Ткаченко</h3>
+                        <p class="trainer-title">Преміум персональний тренер</p>
+                        <p class="trainer-certification">Сертифікований тренер тренажерного залу. Викладач курсу "Школа тренера".</p>
+                        <div class="trainer-details" style="display: none;">
+                            <p>Кандидат у майстри спорту з пауерліфтингу. Спеціаліст з силового тренінгу.</p>
+                            <p><strong>Спеціалізація:</strong> пауерліфтинг, силові тренування, техніка виконання вправ</p>
+                        </div>
+                        <div class="trainer-actions">
+                            <button class="btn btn-outline toggle-details">Дізнатись більше</button>
+                            <button class="btn btn-primary open-booking" data-trainer="Сергій Ткаченко">Записатися на тренування</button>
+                        </div>
+                    </div>
+                </div>
+            <!-- Тренер 4 -->
+<div class="trainer-card-slide">
+    <div class="trainer-image" style="background-image: url('images/trainer4.jpg');"></div>
+    <div class="trainer-info">
+        <h3>Олександр Петренко</h3>
+        <p class="trainer-title">Фітнес-тренер</p>
+        <p class="trainer-certification">Сертифікований спеціаліст з функціонального тренінгу.</p>
+        <div class="trainer-details" style="display: none;">
+            <p>Експерт з кроссфіту та функціонального тренінгу. Досвід 6 років.</p>
+            <p><strong>Спеціалізація:</strong> кроссфіт, функціональний тренінг, вправи з власною вагою</p>
+        </div>
+        <div class="trainer-actions">
+            <button class="btn btn-outline toggle-details">Дізнатись більше</button>
+            <button class="btn btn-primary open-booking" data-trainer="Олександр Петренко">Записатися на тренування</button>
+        </div>
+    </div>
+</div>
+
+<!-- Тренер 5 -->
+<div class="trainer-card-slide">
+    <div class="trainer-image" style="background-image: url('images/trainer5.jpg');"></div>
+    <div class="trainer-info">
+        <h3>Марія Коваль</h3>
+        <p class="trainer-title">Тренер з йоги</p>
+        <p class="trainer-certification">Сертифікований інструктор з йоги та стретчингу.</p>
+        <div class="trainer-details" style="display: none;">
+            <p>Майстер спорту з художньої гімнастики. Практикує йогу 10 років.</p>
+            <p><strong>Спеціалізація:</strong> хатха йога, стретчинг, гнучкість, релаксація</p>
+        </div>
+        <div class="trainer-actions">
+            <button class="btn btn-outline toggle-details">Дізнатись більше</button>
+            <button class="btn btn-primary open-booking" data-trainer="Марія Коваль">Записатися на тренування</button>
+        </div>
+    </div>
+</div>
+
+<!-- Тренер 6 -->
+<div class="trainer-card-slide">
+    <div class="trainer-image" style="background-image: url('images/trainer6.jpg');"></div>
+    <div class="trainer-info">
+        <h3>Андрій Шевченко</h3>
+        <p class="trainer-title">Тренер з бодібілдингу</p>
+        <p class="trainer-certification">Сертифікований спеціаліст з бодібілдингу та фізіології.</p>
+        <div class="trainer-details" style="display: none;">
+            <p>Чемпіон області з бодібілдингу. Досвід роботи 7 років.</p>
+            <p><strong>Спеціалізація:</strong> бодібілдинг, набір м'язової маси, сушіння, підготовка до змагань</p>
+        </div>
+        <div class="trainer-actions">
+            <button class="btn btn-outline toggle-details">Дізнатись більше</button>
+            <button class="btn btn-primary open-booking" data-trainer="Андрій Шевченко">Записатися на тренування</button>
+        </div>
+    </div>
+</div>
+
+<!-- Тренер 7 -->
+<div class="trainer-card-slide">
+    <div class="trainer-image" style="background-image: url('images/trainer7.jpg');"></div>
+    <div class="trainer-info">
+        <h3>Оксана Мельник</h3>
+        <p class="trainer-title">Тренер з пілатесу</p>
+        <p class="trainer-certification">Сертифікований інструктор з пілатесу та каланетики.</p>
+        <div class="trainer-details" style="display: none;">
+            <p>Спеціаліст з постави та корекції спини. Досвід роботи 5 років.</p>
+            <p><strong>Спеціалізація:</strong> пілатес, каланетика, корекція постави, реабілітація</p>
+        </div>
+        <div class="trainer-actions">
+            <button class="btn btn-outline toggle-details">Дізнатись більше</button>
+            <button class="btn btn-primary open-booking" data-trainer="Оксана Мельник">Записатися на тренування</button>
+        </div>
+    </div>
+</div>
+
+<!-- Тренер 8 -->
+<div class="trainer-card-slide">
+    <div class="trainer-image" style="background-image: url('images/trainer8.jpg');"></div>
+    <div class="trainer-info">
+        <h3>Віктор Павленко</h3>
+        <p class="trainer-title">Тренер з боксу</p>
+        <p class="trainer-certification">Сертифікований тренер з боксу та рукопашного бою.</p>
+        <div class="trainer-details" style="display: none;">
+            <p>Кандидат у майстри спорту з боксу. Досвід роботи 9 років.</p>
+            <p><strong>Спеціалізація:</strong> бокс, рукопашний бій, самооборона, кардіо-тренування</p>
+        </div>
+        <div class="trainer-actions">
+            <button class="btn btn-outline toggle-details">Дізнатись більше</button>
+            <button class="btn btn-primary open-booking" data-trainer="Віктор Павленко">Записатися на тренування</button>
+        </div>
+    </div>
+</div>
+
+<!-- Тренер 9 -->
+<div class="trainer-card-slide">
+    <div class="trainer-image" style="background-image: url('images/trainer9.jpg');"></div>
+    <div class="trainer-info">
+        <h3>Наталія Бойко</h3>
+        <p class="trainer-title">Тренер з танців</p>
+        <p class="trainer-certification">Сертифікований інструктор з танцювального фітнесу.</p>
+        <div class="trainer-details" style="display: none;">
+            <p>Професійна танцівниця з досвідом 12 років. Чемпіонка з латиноамериканських танців.</p>
+            <p><strong>Спеціалізація:</strong> Zumba, танцювальний фітнес, латина, кардіо-танці</p>
+        </div>
+        <div class="trainer-actions">
+            <button class="btn btn-outline toggle-details">Дізнатись більше</button>
+            <button class="btn btn-primary open-booking" data-trainer="Наталія Бойко">Записатися на тренування</button>
+        </div>
+    </div>
+</div>
+
+<!-- Тренер 10 -->
+<div class="trainer-card-slide">
+    <div class="trainer-image" style="background-image: url('images/trainer10.jpg');"></div>
+    <div class="trainer-info">
+        <h3>Ігор Лисенко</h3>
+        <p class="trainer-title">Тренер з плавання</p>
+        <p class="trainer-certification">Сертифікований інструктор з плавання та аквааеробіки.</p>
+        <div class="trainer-details" style="display: none;">
+            <p>Майстер спорту з плавання. Досвід роботи 8 років.</p>
+            <p><strong>Спеціалізація:</strong> плавання, аквааеробіка, техніка плавання, реабілітація у воді</p>
+        </div>
+        <div class="trainer-actions">
+            <button class="btn btn-outline toggle-details">Дізнатись більше</button>
+            <button class="btn btn-primary open-booking" data-trainer="Ігор Лисенко">Записатися на тренування</button>
+        </div>
+    </div>
+</div>
+
+<!-- Тренер 11 -->
+<div class="trainer-card-slide">
+    <div class="trainer-image" style="background-image: url('images/trainer11.jpg');"></div>
+    <div class="trainer-info">
+        <h3>Юлія Савченко</h3>
+        <p class="trainer-title">Тренер з стретчингу</p>
+        <p class="trainer-certification">Сертифікований спеціаліст з розтяжки та гнучкості.</p>
+        <div class="trainer-details" style="display: none;">
+            <p>Кандидат у майстри спорту з художньої гімнастики. Досвід роботи 6 років.</p>
+            <p><strong>Спеціалізація:</strong> стретчинг, гнучкість, шпагати, мобільність суглобів</p>
+        </div>
+        <div class="trainer-actions">
+            <button class="btn btn-outline toggle-details">Дізнатись більше</button>
+            <button class="btn btn-primary open-booking" data-trainer="Юлія Савченко">Записатися на тренування</button>
+        </div>
+    </div>
+</div>
+
+<!-- Тренер 12 -->
+<div class="trainer-card-slide">
+    <div class="trainer-image" style="background-image: url('images/trainer12.jpg');"></div>
+    <div class="trainer-info">
+        <h3>Максим Ковальчук</h3>
+        <p class="trainer-title">Тренер з кросфіту</p>
+        <p class="trainer-certification">Сертифікований тренер з кросфіту Level 2.</p>
+        <div class="trainer-details" style="display: none;">
+            <p>Учасник регіональних змагань з кросфіту. Досвід роботи 5 років.</p>
+            <p><strong>Спеціалізація:</strong> кросфіт, воркаут, функціональний тренінг, інтервальні тренування</p>
+        </div>
+        <div class="trainer-actions">
+            <button class="btn btn-outline toggle-details">Дізнатись більше</button>
+            <button class="btn btn-primary open-booking" data-trainer="Максим Ковальчук">Записатися на тренування</button>
+        </div>
+    </div>
+</div>
+
+<!-- Тренер 13 -->
+<div class="trainer-card-slide">
+    <div class="trainer-image" style="background-image: url('images/trainer13.jpg');"></div>
+    <div class="trainer-info">
+        <h3>Анна Пилипенко</h3>
+        <p class="trainer-title">Тренер з аеробіки</p>
+        <p class="trainer-certification">Сертифікований інструктор з аеробіки та степ-аеробіки.</p>
+        <div class="trainer-details" style="display: none;">
+            <p>Чемпіонка міста з фітнес-аеробіки. Досвід роботи 7 років.</p>
+            <p><strong>Спеціалізація:</strong> аеробіка, степ-аеробіка, кардіо-тренування, групові заняття</p>
+        </div>
+        <div class="trainer-actions">
+            <button class="btn btn-outline toggle-details">Дізнатись більше</button>
+            <button class="btn btn-primary open-booking" data-trainer="Анна Пилипенко">Записатися на тренування</button>
+        </div>
+    </div>
+</div>
+
+<!-- Тренер 14 -->
+<div class="trainer-card-slide">
+    <div class="trainer-image" style="background-image: url('images/trainer14.jpg');"></div>
+    <div class="trainer-info">
+        <h3>Роман Гриценко</h3>
+        <p class="trainer-title">Тренер з бойових мистецтв</p>
+        <p class="trainer-certification">Сертифікований інструктор з кікбоксингу та ММА.</p>
+        <div class="trainer-details" style="display: none;">
+            <p>Майстер спорту з кікбоксингу. Досвід роботи 10 років.</p>
+            <p><strong>Спеціалізація:</strong> кікбоксинг, ММА, самооборона, силові тренування</p>
+        </div>
+        <div class="trainer-actions">
+            <button class="btn btn-outline toggle-details">Дізнатись більше</button>
+            <button class="btn btn-primary open-booking" data-trainer="Роман Гриценко">Записатися на тренування</button>
+        </div>
+    </div>
+</div>
+
+<!-- Тренер 15 -->
+<div class="trainer-card-slide">
+    <div class="trainer-image" style="background-image: url('images/trainer15.jpg');"></div>
+    <div class="trainer-info">
+        <h3>Катерина Литвин</h3>
+        <p class="trainer-title">Тренер з фітнесу для дітей</p>
+        <p class="trainer-certification">Сертифікований спеціаліст з дитячого фітнесу.</p>
+        <div class="trainer-details" style="display: none;">
+            <p>Педагог з фізичної культури. Досвід роботи з дітьми 8 років.</p>
+            <p><strong>Спеціалізація:</strong> дитячий фітнес, розвиваючі вправи, корекція постави у дітей</p>
+        </div>
+        <div class="trainer-actions">
+            <button class="btn btn-outline toggle-details">Дізнатись більше</button>
+            <button class="btn btn-primary open-booking" data-trainer="Катерина Литвин">Записатися на тренування</button>
+        </div>
+    </div>
+</div>
+                
+            </div>
+        </div>
+
+        <!-- Стрілки гортання -->
+        <div class="trainers-controls">
+            <button class="trainers-prev" aria-label="Попередні тренер">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="trainers-next" aria-label="Наступний тренер">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+        
+        
+                
+                
+            
+    </main>
+
+    <!-- Футер -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <!-- Графік роботи -->
+                <div class="footer-section">
+                    <h3>Графік роботи</h3>
+                    <div class="schedule-item">
+                        <span>Понеділок - П'ятниця</span>
+                        <span>06:00 - 23:00</span>
+                    </div>
+                    <div class="schedule-item">
+                        <span>Субота - Неділя</span>
+                        <span>08:00 - 22:00</span>
+                    </div>
+                </div>
+
+                <!-- Контактна інформація -->
+                <div class="footer-section">
+                    <h3>Контакти</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:0683316124">068 331 6124</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:nazar.letnianchyn.pp.2024@lpnu.ua">nazar.letnianchyn.pp.2024@lpnu.ua</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>вул. Степана Бандери, 91</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>вул. Словацького, 1</span>
+                    </div>
+                </div>
+
+                <!-- Соціальні мережі -->
+                <div class="footer-section">
+                    <h3>Ми в соцмережах</h3>
+                    <div class="social-links">
+                        <a href="https://t.me/NazarLetnianchyn" target="_blank" class="social-link telegram">
+                            <i class="fab fa-telegram"></i>
+                            <span>Telegram</span>
+                        </a>
+                        <a href="https://www.instagram.com/na.zar9887?igsh=MWRzYjlrdzFlOWlrYg==" target="_blank" class="social-link instagram">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="#" target="_blank" class="social-link facebook">
+                            <i class="fab fa-facebook"></i>
+                            <span>Facebook</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Додаткова навігація -->
+                <div class="footer-section">
+                    <h3>Навігація</h3>
+                    <nav class="footer-nav">
+                        <ul>
+                            <li><a href="index.html">Головна</a></li>
+                            <li><a href="index2.html">Послуги</a></li>
+                            <li><a href="index3.html">Про нас</a></li>
+                            <li><a href="index4.html">Контакти</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 IronCore. Всі права захищені.</p>
+                <div class="footer-payment">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-apple-pay"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+        <!-- Модальне вікно запису на тренування -->
+    <div id="booking-modal" class="modal">
+        <div class="modal-content booking-modal">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <h2>Запис на тренування</h2>
+                <p class="modal-subtitle">Саме персональний тренер є запорукою результату!</p>
+                
+                <form id="booking-form" class="booking-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="client-surname">Прізвище *</label>
+                            <input type="text" id="client-surname" required class="form-control">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="client-name">Ім'я *</label>
+                            <input type="text" id="client-name" required class="form-control">
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="client-phone">Телефон *</label>
+                            <input type="tel" id="client-phone" required class="form-control">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="client-email">Email</label>
+                            <input type="email" id="client-email" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+    <label>Обраний тренер</label>
+    <div id="selected-trainer-display" class="selected-trainer-display"></div>
+</div>
+                    
+                    
+                    <div class="form-group">
+                        <label class="form-label">Оберіть дату і годину *</label>
+                        <div class="datetime-selection">
+                            <div class="date-picker">
+                                <input type="date" id="training-date" required class="form-control">
+                            </div>
+                            <div class="time-slots-grid">
+                                <div class="time-slot" data-time="18:30">18:30</div>
+                                <div class="time-slot" data-time="19:00">19:00</div>
+                                <div class="time-slot" data-time="19:30">19:30</div>
+                                <div class="time-slot" data-time="20:00">20:00</div>
+                                <div class="time-slot" data-time="20:30">20:30</div>
+                                <div class="time-slot" data-time="21:00">21:00</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-submit">ВІДПРАВИТИ</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

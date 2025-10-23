@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IronCore - Послуги</title>
+     <!-- НОВА ФАВІКОНКА -->
+<link rel="icon" type="image/png" href="/images/gym.png?v=2">
+<link rel="shortcut icon" href="/images/gym.png?v=2">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+<script src="js/script.js"></script>
+</head>
+<body>
+    <!-- Шапка сайту -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h1>IronCore</h1>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html" data-text="Головна">Головна</a></li>
+                        <li><a href="index2.html" class="active" data-text="Послуги">Послуги</a></li>
+                        <li><a href="index3.html" data-text="Про нас">Про нас</a></li>
+                        <li><a href="index4.html" data-text="Контакти">Контакти</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Герой секція послуг -->
+    <section class="services-hero">
+        <div class="container">
+            <h1>Наші Послуги</h1>
+            <p class="subtitle">Професійні тренування для досягнення ваших цілей</p>
+        </div>
+    </section>
+
+    <!-- Основний контент -->
+    <main class="services-main">
+        <!-- Секція групових студій -->
+        <section id="group-studies" class="group-studies-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Групові студії</h2>
+                    <p class="group-studies-subtitle">Займайтесь у дружній атмосфері з професійними тренерами та однодумцями</p>
+                </div>
+
+                <div class="studies-content">
+                    <div class="studies-text">
+                        <p class="group-studies-text">Групові заняття — це чудова можливість підтримувати здоровий спосіб життя, працювати над фігурою та заряджатися позитивною енергією. У фітнес-клубі «IronCore» ми пропонуємо різноманітні програми тренувань для будь-якого рівня підготовки, які проходять під керівництвом досвідчених тренерів у дружній атмосфері.</p>
+                        
+                        <div class="studies-features">
+                            <div class="feature">
+                                <i class="fas fa-chart-line"></i>
+                                <div>
+                                    <h4>Велика кількість програм</h4>
+                                    <p>Понад 45 годин групових студій щотижня</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-users"></i>
+                                <div>
+                                    <h4>17 авторських програм</h4>
+                                    <p>Різноманітні напрямки для будь-якого рівня</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-trophy"></i>
+                                <div>
+                                    <h4>Професійні тренери</h4>
+                                    <p>Досвідчені інструктори з індивідуальним підходом</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="studies-visual">
+                        <!-- Ваше фото групи -->
+                        <img src="images/group-training.jpg" alt="Групові заняття в IronCore" class="group-photo">
+                        <div class="photo-caption">
+                            <p>Групове тренування в IronCore</p>
+                        </div>
+                        
+                        <!-- Новий блок під зображенням -->
+                        <div class="photo-additional">
+                            <h4> Переваги групових тренувань</h4>
+                            <p>Мотивація від команди • Професійне наставництво • Дружня атмосфера • Регулярні результати</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Типи студій в одному ряді -->
+                <div class="studies-types">
+                    <div class="study-type-card">
+                        <div class="type-header">
+                            <i class="fas fa-users"></i>
+                            <h3>Групові студії</h3>
+                        </div>
+                        <ul class="type-features">
+                            <li><i class="fas fa-check"></i> Тренування за базовою системою</li>
+                            <li><i class="fas fa-check"></i> Максимальна місткість до 20 людей</li>
+                            <li><i class="fas fa-check"></i> Доступні ціни</li>
+                            <li><i class="fas fa-check"></i> Ідеально для початківців</li>
+                        </ul>
+                        <div class="type-price">від 300 грн/заняття</div>
+                        <button class="btn btn-primary book-session-btn open-booking" data-trainer="Групове заняття">Записатись</button>
+                    </div>
+
+                    <div class="study-type-card featured">
+                        <div class="featured-badge">Популярне</div>
+                        <div class="type-header">
+                            <i class="fas fa-star"></i>
+                            <h3>Авторські студії</h3>
+                        </div>
+                        <ul class="type-features">
+                            <li><i class="fas fa-check"></i> Тренування за авторською методикою</li>
+                            <li><i class="fas fa-check"></i> Персональний підхід</li>
+                            <li><i class="fas fa-check"></i> Максимальна місткість до 15 людей</li>
+                            <li><i class="fas fa-check"></i> Ексклюзивні програми</li>
+                        </ul>
+                        <div class="type-price">від 500 грн/заняття</div>
+                        <button class="btn btn-primary book-session-btn open-booking" data-trainer="Авторське заняття">Записатись</button>
+                    </div>
+                </div>
+
+                <!-- CTA секція -->
+                <div class="studies-cta">
+                    <div class="cta-content">
+                        <h3>Готові почати?</h3>
+                        <p>Запишіться на безкоштовне пробне заняття та відчуйте атмосферу IronCore</p>
+                        <div class="cta-buttons">
+                            <button class="btn btn-primary open-booking" data-trainer="Групове заняття">Записатись на заняття</button>
+                            <button class="btn btn-secondary" id="learn-more-btn">Дізнатись більше</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Додаткова інформація (прихована спочатку) -->
+                <div id="more-info" class="more-info-section">
+                    <div class="info-content">
+                        <h4> Детальніше про наші групові заняття</h4>
+                        <div class="info-grid">
+                            <div class="info-item">
+                                <i class="fas fa-clock"></i>
+                                <h5>Гнучкий графік</h5>
+                                <p>Займайтесь у зручний для вас час - ми працюємо з 06:00 до 23:00 у будні та з 08:00 до 22:00 у вихідні</p>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-dumbbell"></i>
+                                <h5>Сучасне обладнання</h5>
+                                <p>Тренуйтесь на професійному обладнанні від провідних брендів: TechnoGym, Life Fitness, Hammer Strength</p>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-heartbeat"></i>
+                                <h5>Медичний супровід</h5>
+                                <p>Наші тренери мають медичну освіту та допоможуть з підбором навантаження з урахуванням стану здоров'я</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Модальне вікно для запису -->
+    <div id="booking-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3>Запис на групове заняття</h3>
+            <form id="booking-form" class="booking-form">
+                <input type="hidden" id="trainer-name" name="trainer-name" value="Групове заняття">
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="client-surname">Прізвище *</label>
+                        <input type="text" id="client-surname" name="surname" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="client-name">Ім'я *</label>
+                        <input type="text" id="client-name" name="name" required>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="client-phone">Телефон *</label>
+                        <input type="tel" id="client-phone" name="phone" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="client-email">Email</label>
+                        <input type="email" id="client-email" name="email">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="training-date">Дата тренування *</label>
+                    <input type="date" id="training-date" name="date" required>
+                </div>
+                
+                <div class="form-group">
+                    <label>Оберіть час *</label>
+                    <div class="time-slots">
+                        <div class="time-slot" data-time="08:00-09:00">08:00-09:00</div>
+                        <div class="time-slot" data-time="09:00-10:00">09:00-10:00</div>
+                        <div class="time-slot" data-time="10:00-11:00">10:00-11:00</div>
+                        <div class="time-slot" data-time="17:00-18:00">17:00-18:00</div>
+                        <div class="time-slot" data-time="18:00-19:00">18:00-19:00</div>
+                        <div class="time-slot" data-time="19:00-20:00">19:00-20:00</div>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="study-type">Тип заняття</label>
+                    <select id="study-type" name="study-type">
+                        <option value="group">Групове заняття (300 грн)</option>
+                        <option value="author">Авторське заняття (500 грн)</option>
+                    </select>
+                </div>
+                
+                <button type="submit" class="btn btn-primary submit-btn">Записатись</button>
+            </form>
+        </div>
+    </div>
+                                <!-- Секція абонементів -->
+                <section class="membership-section">
+                    <div class="container">
+                        <div class="section-header">
+                            <h2>Абонементи</h2>
+                            <p class="subtitle">Оберіть найкращий варіант для ваших тренувань</p>
+                        </div>
+
+                        <div class="membership-cards">
+                            <!-- Ряд 1 -->
+                            <!-- СТАНДАРТ -->
+                            <div class="membership-card">
+                                <div class="card-header">
+                                    <span class="badge">АКЦІЯ</span>
+                                    <h3>СТАНДАРТ</h3>
+                                </div>
+                                <div class="card-price">
+                                    <div class="old-price">800 грн/місяць</div>
+                                    <div class="new-price">399 грн</div>
+                                    <div class="period">/місяць</div>
+                                </div>
+                                <div class="card-features">
+                                    <div class="feature-item">
+                                        <i class="fas fa-clock"></i>
+                                        <span>07:00-23:00</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-dumbbell"></i>
+                                        <span>8 тренувань</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Тренажерний зал</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Кардіообладнання</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Душові</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Консультація інструктора</span>
+                                    </div>
+                                    <div class="feature-item location">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>вул. Степана Бандери, 91</span>
+                                    </div>
+                                </div>
+                                <div class="card-note">
+                                    <p>Тільки для нових відвідувачів</p>
+                                </div>
+                                <button class="btn btn-primary open-membership-form" data-plan="СТАНДАРТ" data-price="399">
+                                    Оформити
+                                </button>
+                            </div>
+
+                            <!-- ПРЕМІУМ -->
+                            <div class="membership-card featured">
+                                <div class="card-header">
+                                    <span class="badge">ПОПУЛЯРНИЙ</span>
+                                    <h3>ПРЕМІУМ</h3>
+                                </div>
+                                <div class="card-price">
+                                    <div class="old-price">1500 грн/місяць</div>
+                                    <div class="new-price">1099 грн</div>
+                                    <div class="period">/місяць</div>
+                                </div>
+                                <div class="card-features">
+                                    <div class="feature-item">
+                                        <i class="fas fa-clock"></i>
+                                        <span>07:00-23:00</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-dumbbell"></i>
+                                        <span>Безлімітні тренування</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Тренажерний зал</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Групові студії</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Дитячі студії</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Сауна</span>
+                                    </div>
+                                    <div class="feature-item location">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>вул. Словацького, 1</span>
+                                    </div>
+                                </div>
+                                <div class="card-note">
+                                    <p>Найпопулярніший варіант</p>
+                                </div>
+                                <button class="btn btn-primary open-membership-form" data-plan="ПРЕМІУМ" data-price="1099">
+                                    Оформити
+                                </button>
+                            </div>
+
+                            <!-- ПОВНИЙ ДОСТУП -->
+                            <div class="membership-card">
+                                <div class="card-header">
+                                    <span class="badge">VIP</span>
+                                    <h3>ПОВНИЙ ДОСТУП</h3>
+                                </div>
+                                <div class="card-price">
+                                    <div class="old-price">2500 грн/місяць</div>
+                                    <div class="new-price">1999 грн</div>
+                                    <div class="period">/місяць</div>
+                                </div>
+                                <div class="card-features">
+                                    <div class="feature-item">
+                                        <i class="fas fa-clock"></i>
+                                        <span>07:00-23:00</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-dumbbell"></i>
+                                        <span>Безлімітні тренування</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Всі зони клубу</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Групові студії</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Персональний locker</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Сауна та SPA</span>
+                                    </div>
+                                    <div class="feature-item location">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>вул. Словацького, 1</span>
+                                    </div>
+                                </div>
+                                <div class="card-note">
+                                    <p>Повний доступ до всіх послуг</p>
+                                </div>
+                                <button class="btn btn-primary open-membership-form" data-plan="ПОВНИЙ ДОСТУП" data-price="1999">
+                                    Оформити
+                                </button>
+                            </div>
+
+                            <!-- Ряд 2 -->
+                            <!-- БАЗОВИЙ РІК -->
+                            <div class="membership-card">
+                                <div class="card-header">
+                                    <span class="badge">АКЦІЯ</span>
+                                    <h3>БАЗОВИЙ РІК</h3>
+                                </div>
+                                <div class="card-price">
+                                    <div class="old-price">9600 грн/рік</div>
+                                    <div class="new-price">6999 грн</div>
+                                    <div class="period">/рік</div>
+                                </div>
+                                <div class="card-features">
+                                    <div class="feature-item">
+                                        <i class="fas fa-clock"></i>
+                                        <span>07:00-23:00</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-dumbbell"></i>
+                                        <span>12 місяців тренувань</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Тренажерний зал</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Кардіообладнання</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Душові</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Зал розминки</span>
+                                    </div>
+                                    <div class="feature-item location">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>вул. Степана Бандери, 91</span>
+                                    </div>
+                                </div>
+                                <div class="card-note">
+                                    <p>Економія 2600 грн</p>
+                                </div>
+                                <button class="btn btn-primary open-membership-form" data-plan="БАЗОВИЙ РІК" data-price="6999">
+                                    Оформити
+                                </button>
+                            </div>
+
+                            <!-- РІК + ТРЕНЕР -->
+                            <div class="membership-card featured">
+                                <div class="card-header">
+                                    <span class="badge">ВИГІДНИЙ</span>
+                                    <h3>РІК + ТРЕНЕР</h3>
+                                </div>
+                                <div class="card-price">
+                                    <div class="old-price">15000 грн/рік</div>
+                                    <div class="new-price">11999 грн</div>
+                                    <div class="period">/рік</div>
+                                </div>
+                                <div class="card-features">
+                                    <div class="feature-item">
+                                        <i class="fas fa-clock"></i>
+                                        <span>07:00-23:00</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-dumbbell"></i>
+                                        <span>Безлімітні тренування</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>10 тренувань з тренером</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Персональна програма</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Консультації</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Сауна</span>
+                                    </div>
+                                    <div class="feature-item location">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>вул. Словацького, 1</span>
+                                    </div>
+                                </div>
+                                <div class="card-note">
+                                    <p>Найкраще співвідношення ціна/якість</p>
+                                </div>
+                                <button class="btn btn-primary open-membership-form" data-plan="РІК + ТРЕНЕР" data-price="11999">
+                                    Оформити
+                                </button>
+                            </div>
+
+                            <!-- ПРЕМІУМ РІК -->
+                            <div class="membership-card">
+                                <div class="card-header">
+                                    <span class="badge">АКЦІЯ</span>
+                                    <h3>ПРЕМІУМ РІК</h3>
+                                </div>
+                                <div class="card-price">
+                                    <div class="old-price">18000 грн/рік</div>
+                                    <div class="new-price">12999 грн</div>
+                                    <div class="period">/рік</div>
+                                </div>
+                                <div class="card-features">
+                                    <div class="feature-item">
+                                        <i class="fas fa-clock"></i>
+                                        <span>07:00-23:00</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-dumbbell"></i>
+                                        <span>Безлімітні тренування</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Групові студії</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Дитячі студії</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Сауна та SPA</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Персональний locker</span>
+                                    </div>
+                                    <div class="feature-item location">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>Обидві локації</span>
+                                    </div>
+                                </div>
+                                <div class="card-note">
+                                    <p>Доступ до обох філій</p>
+                                </div>
+                                <button class="btn btn-primary open-membership-form" data-plan="ПРЕМІУМ РІК" data-price="12999">
+                                    Оформити
+                                </button>
+                            </div>
+
+                            <!-- Ряд 3 -->
+                            <!-- ПІВРІЧЧЯ -->
+                            <div class="membership-card">
+                                <div class="card-header">
+                                    <span class="badge">ЕКОНОМ</span>
+                                    <h3>ПІВРІЧЧЯ</h3>
+                                </div>
+                                <div class="card-price">
+                                    <div class="old-price">4800 грн</div>
+                                    <div class="new-price">3499 грн</div>
+                                    <div class="period">/6 місяців</div>
+                                </div>
+                                <div class="card-features">
+                                    <div class="feature-item">
+                                        <i class="fas fa-clock"></i>
+                                        <span>07:00-23:00</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-dumbbell"></i>
+                                        <span>6 місяців тренувань</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Тренажерний зал</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Кардіообладнання</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Душові</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Консультації</span>
+                                    </div>
+                                    <div class="feature-item location">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>вул. Степана Бандери, 91</span>
+                                    </div>
+                                </div>
+                                <div class="card-note">
+                                    <p>Ідеально для початківців</p>
+                                </div>
+                                <button class="btn btn-primary open-membership-form" data-plan="ПІВРІЧЧЯ" data-price="3499">
+                                    Оформити
+                                </button>
+                            </div>
+
+                            <!-- СТУДЕНТСЬКИЙ -->
+                            <div class="membership-card featured">
+                                <div class="card-header">
+                                    <span class="badge">СТУДЕНТ</span>
+                                    <h3>СТУДЕНТСЬКИЙ</h3>
+                                </div>
+                                <div class="card-price">
+                                    <div class="old-price">600 грн/місяць</div>
+                                    <div class="new-price">299 грн</div>
+                                    <div class="period">/місяць</div>
+                                </div>
+                                <div class="card-features">
+                                    <div class="feature-item">
+                                        <i class="fas fa-clock"></i>
+                                        <span>07:00-23:00</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-dumbbell"></i>
+                                        <span>Безлімітні тренування</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Тренажерний зал</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Кардіообладнання</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Душові</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Зал розминки</span>
+                                    </div>
+                                    <div class="feature-item location">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>Обидві локації</span>
+                                    </div>
+                                </div>
+                                <div class="card-note">
+                                    <p>Тільки за наявності студентського</p>
+                                </div>
+                                <button class="btn btn-primary open-membership-form" data-plan="СТУДЕНТСЬКИЙ" data-price="299">
+                                    Оформити
+                                </button>
+                            </div>
+
+                            <!-- СІМЕЙНИЙ -->
+                            <div class="membership-card">
+                                <div class="card-header">
+                                    <span class="badge">СІМ'Я</span>
+                                    <h3>СІМЕЙНИЙ</h3>
+                                </div>
+                                <div class="card-price">
+                                    <div class="old-price">5000 грн/місяць</div>
+                                    <div class="new-price">2999 грн</div>
+                                    <div class="period">/місяць</div>
+                                </div>
+                                <div class="card-features">
+                                    <div class="feature-item">
+                                        <i class="fas fa-clock"></i>
+                                        <span>07:00-23:00</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-dumbbell"></i>
+                                        <span>2 особи безліміт</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Всі зони клубу</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Групові студії</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Дитяча кімната</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Сауна та SPA</span>
+                                    </div>
+                                    <div class="feature-item location">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>Обидві локації</span>
+                                    </div>
+                                </div>
+                                <div class="card-note">
+                                    <p>Для пар та сімей</p>
+                                </div>
+                                <button class="btn btn-primary open-membership-form" data-plan="СІМЕЙНИЙ" data-price="2999">
+                                    Оформити
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                    <!-- Модальне вікно оформлення абонементу -->
+    <div id="membership-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3>Оформлення абонементу</h3>
+            
+            <div id="membership-form-container">
+                <form id="membership-form" class="membership-form">
+                    <div class="form-section">
+                        <h4>Обраний абонемент</h4>
+                        <div class="plan-info">
+                            <span class="plan-name" id="selected-plan">СТАНДАРТ</span>
+                            <span class="plan-price" id="selected-price">399 грн</span>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="member-name">Ім'я *</label>
+                            <input type="text" id="member-name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="member-surname">Прізвище *</label>
+                            <input type="text" id="member-surname" name="surname" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="member-email">Електронна пошта *</label>
+                        <input type="email" id="member-email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="member-phone">Телефон *</label>
+                        <input type="tel" id="member-phone" name="phone" required>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary submit-btn">
+                        Підтвердити оформлення
+                    </button>
+                </form>
+                
+                <div id="confirmation-message" class="confirmation-message">
+                    <i class="fas fa-check-circle"></i>
+                    <h4>Дякуємо за реєстрацію!</h4>
+                    <p><strong>Очікуйте дзвінка!</strong></p>
+                    <p>Вас зареєструють як користувача нашого спортзалу.</p>
+                    <p>Після оплати ми оформимо ваш абонемент.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                    <!-- Таймер акцій -->
+                <section class="sale-timer-section">
+                    <div class="container">
+                        <div class="timer-card">
+                            <div class="timer-header">
+                                <div class="timer-badge">
+                                    <i class="fas fa-bolt"></i>
+                                    <span class="accent-text">АКЦІЯ</span>
+                                </div>
+                                <h3>Спеціальна пропозиція!</h3>
+                            </div>
+                            <div class="timer-content">
+                                <div class="timer-text">
+                                    <p> <strong>Оберіть абонемент за вигідною ціною!</strong></p>
+                                    <p>Акційні пропозиції дійсні ще:</p>
+                                </div>
+                                <div class="countdown-timer">
+                                    <div class="timer-unit">
+                                        <span class="timer-number" id="days">09</span>
+                                        <span class="timer-label">Днів</span>
+                                    </div>
+                                    <div class="timer-unit">
+                                        <span class="timer-number" id="hours">00</span>
+                                        <span class="timer-label">Годин</span>
+                                    </div>
+                                    <div class="timer-unit">
+                                        <span class="timer-number" id="minutes">00</span>
+                                        <span class="timer-label">Хвилин</span>
+                                    </div>
+                                    <div class="timer-unit">
+                                        <span class="timer-number" id="seconds">00</span>
+                                        <span class="timer-label">Секунд</span>
+                                    </div>
+                                </div>
+                                <div class="timer-features">
+                                    <div class="feature">
+                                        <i class="fas fa-check"></i>
+                                        <span>Знижки до 60%</span>
+                                    </div>
+                                    <div class="feature">
+                                        <i class="fas fa-check"></i>
+                                        <span>Безкоштовна заморозка</span>
+                                    </div>
+                                    <div class="feature">
+                                        <i class="fas fa-check"></i>
+                                        <span>Подарунковий сертифікат</span>
+                                    </div>
+                                </div>
+                                <div class="timer-cta">
+                                    <p>Встигніть придбати абонемент за найкращою ціною!</p>
+                                    <button class="btn btn-primary scroll-to-membership">
+                                        <i class="fas fa-arrow-down"></i>
+                                        Переглянути абонементи
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+    <!-- Футер -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <!-- Графік роботи -->
+                <div class="footer-section">
+                    <h3>Графік роботи</h3>
+                    <div class="schedule-item">
+                        <span>Понеділок - П'ятниця</span>
+                        <span>06:00 - 23:00</span>
+                    </div>
+                    <div class="schedule-item">
+                        <span>Субота - Неділя</span>
+                        <span>08:00 - 22:00</span>
+                    </div>
+                </div>
+
+                <!-- Контактна інформація -->
+                <div class="footer-section">
+                    <h3>Контакти</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:0683316124">068 331 6124</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:nazar.letnianchyn.pp.2024@lpnu.ua">nazar.letnianchyn.pp.2024@lpnu.ua</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>вул. Степана Бандери, 91</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>вул. Словацького, 1</span>
+                    </div>
+                </div>
+
+                <!-- Соціальні мережі -->
+                <div class="footer-section">
+                    <h3>Ми в соцмережах</h3>
+                    <div class="social-links">
+                        <a href="https://t.me/NazarLetnianchyn" target="_blank" class="social-link telegram">
+                            <i class="fab fa-telegram"></i>
+                            <span>Telegram</span>
+                        </a>
+                        <a href="https://www.instagram.com/na.zar9887?igsh=MWRzYjlrdzFlOWlrYg==" target="_blank" class="social-link instagram">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="#" target="_blank" class="social-link facebook">
+                            <i class="fab fa-facebook"></i>
+                            <span>Facebook</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Додаткова навігація -->
+                <div class="footer-section">
+                    <h3>Навігація</h3>
+                    <nav class="footer-nav">
+                        <ul>
+                            <li><a href="index.html">Головна</a></li>
+                            <li><a href="index2.html">Послуги</a></li>
+                            <li><a href="index3.html">Про нас</a></li>
+                            <li><a href="index4.html">Контакти</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 IronCore. Всі права захищені.</p>
+                <div class="footer-payment">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-apple-pay"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  
+</body>
+</html>
